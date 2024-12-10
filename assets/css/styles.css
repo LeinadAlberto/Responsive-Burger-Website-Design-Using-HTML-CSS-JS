@@ -637,7 +637,18 @@ img {
 }
 
 /*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+	width: .6rem;
+	background-color: hsl(34, 16%, 75%);
+}
 
+::-webkit-scrollbar-thumb {width: .6rem;
+	background-color: hsl(34, 16%, 65%);
+}
+
+::-webkit-scrollbar-thumb:hover {width: .6rem;
+	background-color: hsl(34, 16%, 55%);
+}
 
 /*=============== SCROLL UP ===============*/
 
